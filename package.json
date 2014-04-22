@@ -1,0 +1,25 @@
+{
+  "name": "window-watcher",
+  "description": "State object you can listen to for changes to window width.",
+  "version": "0.0.0",
+  "author": "Henrik Joreteg <henrik@andyet.net>",
+  "bugs": {
+    "url": "https://github.com/henrikjoreteg/window-watcher/issues"
+  },
+  "dependencies": {
+    "backbone-events-standalone": "~0.2.1",
+    "component-raf": "~1.1.3"
+  },
+  "homepage": "https://github.com/henrikjoreteg/window-watcher",
+  "keywords": [
+    "window",
+    "dom",
+    "events"
+  ],
+  "license": "MIT",
+  "main": "window-watcher.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/henrikjoreteg/window-watcher"
+  }
+}
