@@ -12,6 +12,10 @@ function Watcher() {
     }, false);
 }
 
+Watcher.prototype.get = function (type) {
+    return this[type];
+};
+
 // add backbone events
 BBEvents.mixin(Watcher.prototype);
 
